@@ -1,0 +1,124 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* header style */
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    
+/* .black{
+    mar
+} */
+}
+.nav-title{
+    font-weight: 800;
+    font-size:25px;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+}
+/* banner styles */
+.btn-primary{
+    background-color:rgb(237, 91, 115);
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 15px;
+    border: none;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-flex{
+    margin-left: 220px;
+}
+.banner{
+    margin-right: 100px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-company{
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border: 2px solid rgb(192, 190, 190);
+}
+/* main styles */
+.align{
+    text-align: center;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 100px;
+
+}
+.see{
+    color: rgb(237, 91, 115);
+    text-align: right;
+    margin-right: 100px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* footer styles */
+.blue{
+    background-color:rgb(15, 15, 55);
+    color: white;
+    justify-items: center;
+    height: 200px;
+    margin-top:50px;
+}
+.footer-title{
+    margin-top: 30px;
+}
+
+.card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgb(0, 0, 0, 0.09);
+    text-align: center;
+    
+}
+
+
+
+
+@media  screen and (max-width:576px) {
+  nav, nav ul, .display, .sponsor-company{
+    flex-direction: column;
+  }
+  .sponsor-company{
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
