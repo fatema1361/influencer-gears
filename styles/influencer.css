@@ -103,15 +103,38 @@ nav ul{
 
 .card{
     background-color: white;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgb(0, 0, 0, 0.09);
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 20px 0 rgb(0, 2, 0, 0.09);
     text-align: center;
+    position: relative;
+  width: 400px;
+  height: 500px;
+  gap: 20px;
+  
+  
     
 }
+.img{
+    margin-top: 25px;
+}
 
-
-
+.container{
+    font-size:15px;
+    font-weight: 600;
+}
+.gray{
+    color: gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px;
+}
 
 @media  screen and (max-width:576px) {
   nav, nav ul, .display, .sponsor-company{
